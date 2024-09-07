@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                 // Modern JavaScript version
+    "module": "commonjs",                           // Module system for Node.js
+    "outDir": "./dist",                             // Output directory for compiled files
+    "rootDir": "./src",                             // Root directory for source files
+    "strict": true,                                // Enable all strict type-checking options
+    "esModuleInterop": true,                        // Support for importing CommonJS modules
+    "forceConsistentCasingInFileNames": true,       // Ensure consistent casing in imports
+    "skipLibCheck": true,                           // Skip type checking of declaration files
+    "sourceMap": true,                             // Generate source maps for debugging
+    "resolveJsonModule": true,                      // Enable importing JSON files
+    "experimentalDecorators": true,                 // Enable experimental support for decorators
+    "emitDecoratorMetadata": true                   // Emit design-type metadata for decorators
+  },
+  "include": ["src/**/*"],                         // Include all TypeScript files in src
+  "exclude": ["node_modules", "dist"]               // Exclude node_modules and dist directories
+}
